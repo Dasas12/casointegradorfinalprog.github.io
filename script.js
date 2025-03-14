@@ -1,0 +1,1 @@
+// Aquí iría la lógica para manejar el registro de clientes, la gestión de productos y los pedidos.

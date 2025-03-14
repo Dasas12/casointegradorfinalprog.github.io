@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h2>Pedidos</h2>
+        <form id="pedidoForm" class="mx-auto">
+            <div class="form-group">
+                <label for="clientePedido">Cliente</label>
+                <select class="form-control" id="clientePedido" required></select>
+            </div>
+            <div class="form-group">
+                <label for="productoPedido">Producto</label>
+                <select class="form-control" id="productoPedido" required></select>
+            </div>
+            <div class="form-group">
+                <label for="cantidadPedido">Cantidad</label>
+                <input type="number" class="form-control" id="cantidadPedido" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Agregar al Pedido</button>
+        </form>
+        <div id="pedidoLista">
+            </div>
+        <button id="generarTicket" class="btn btn-info btn-lg">Generar Ticket</button>
+        <a href="index.html" class="btn btn-secondary btn-lg mt-3">Volver a Inicio</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

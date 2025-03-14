@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+    background-color: #f0f8ff; /* Color de fondo */
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Azul */
+    border-color: #007bff;
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Cyan */
+    border-color: #17a2b8;
+}
+
+.btn-success {
